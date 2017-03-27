@@ -1,0 +1,39 @@
+<project id="1">
+  <name>Northwind.project</name>
+  <connections id="2">
+    <dbsource id="3">
+      <type>DATABASE</type>
+      <description></description>
+      <config id="4">
+        <databaseType>MySQL</databaseType>
+        <driverName>com.mysql.jdbc.Driver</driverName>
+        <url>jdbc:mysql://localhost:3306/northwind?tinyInt1isBit=false&amp;getProceduresReturnsFunctions=false&amp;allowMultiQueries=true</url>
+        <server>localhost</server>
+        <port>3306</port>
+        <databaseName>northwind</databaseName>
+        <schema></schema>
+        <user>root</user>
+        <password></password>
+      </config>
+    </dbsource>
+  </connections>
+  <models id="5">
+    <visualmodelsource id="6">
+      <type>VISUALMODEL</type>
+      <description></description>
+      <name>Northwind</name>
+      <isExternal>false</isExternal>
+      <modelFilePath>Northwind.visualmodel</modelFilePath>
+    </visualmodelsource>
+  </models>
+  <scripts id="7">
+    <scriptsource id="8">
+      <type>SCRIPT</type>
+      <description></description>
+      <isExternal>true</isExternal>
+      <path>NorthwindSchema.sql</path>
+    </scriptsource>
+  </scripts>
+  <tasks id="9"/>
+  <settings id="10"/>
+</project>
